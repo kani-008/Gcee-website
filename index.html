@@ -1,1554 +1,519 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
-	<title>GCE, ERODE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government College of Engineering, Erode</title>
+    <meta name="description" content="Government College of Engineering, Erode, GCE Erode, GECE, gece,www.gcee.ac.in">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/icons/GCEE.png"/>
 
-	<!-- Meta -->
-	<meta charset="utf-8">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Government College of Engineering, Erode, GCE Erode, GECE, gece,www.gcee.ac.in">
-	<meta name="author" content="">
-
-	<!-- Favicon -->
-	<link rel="icon" href="assets/img/icons/GCEE.png"/>
-
-	<!-- Web Fonts -->
-	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
-
-	<!-- CSS Global Compulsory -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-	<!-- CSS Header and Footer -->
-	<link rel="stylesheet" href="assets/css/headers/header-v8.css">
-	<link rel="stylesheet" href="assets/css/footers/footer-v1.css">
-
-	<!-- CSS Implementing Plugins -->
-	<link rel="stylesheet" href="assets/plugins/animate.css">
-	<link rel="stylesheet" href="assets/plugins/brand-buttons/brand-buttons-inversed.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="assets/plugins/layer-slider/layerslider/css/layerslider.css">
-<!-- CSS Page Style for Company -->
-	<link rel="stylesheet" href="assets/plugins/animate.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/image-hover/css/img-hover.css">
-	<link rel="stylesheet" href="assets/css/pages/page_job.css">
-	<!-- CSS Theme for Events -->
-	<link rel="stylesheet" href="assets/plugins/animate.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/scrollbar/css/jquery.mCustomScrollbar.css">
-	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
-	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
-	<link rel="stylesheet" href="assets/css/pages/profile.css">
-	<!-- CSS Theme -->
-	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
-	<link rel="stylesheet" href="assets/css/theme-skins/dark.css">
-
-	<!-- CSS Customization -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-	<link rel="stylesheet" href="assets/css/calendar.css">
-	
-	<!-- Carousel -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-
-    <style type="text/css">
-	
-
-		.goog-te-banner-frame{visibility:hidden !important;}
-		body {
-		top: 0px !important; 
-		}
-
-		.flash {
-			animation-name: flash;
-			animation-duration: 0.4s;
-			animation-timing-function: linear;
-			animation-iteration-count: infinite;
-			animation-direction: alternate;
-			animation-play-state: running;
-		}
-
-		@keyframes flash {
-			from {color: red;}
-			to {color: green;}
-		}
-		.shape-rectangle {
-		color:white;
-		text-align:left;
-		text-transform: uppercase;
-		font-size:14px;
-		padding: 10px 8px 10px 10px;
-		background-color: rgba(3,78,336,0.7);
-		width: 800px;
-		position: relative;
-		margin-left: 50px;
-		}
-		.shape-rectangle:before {
-		content: "";
-		position: absolute;
-		border: 21px solid transparent;
-		border-top-color: rgba(3,78,136,0.7);
-		border-right-color: rgba(3,78,136,0.7);
-		right: 100%;
-		top: 0;
-		width: 0;
-		height: 0
-		}
-		
-		/* Main container for the news section */
-    .news-events {
-      max-width: 1000px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      position: relative;
-    }
-
-    /* Carousel styling */
-    .news-carousel {
-      position: relative;
-    }
-
-    /* Each carousel item will contain two blocks */
-    .news-carousel .item {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Each image block */
-    .news-block {
-      flex: 1;
-      max-width: 750px;
-	  height:400px;
-	  text-align: center;
-    }
-	
-	/* Each image block */
-    .events-block {
-      flex: 1;
-      max-width: 300px;
-	  height:200px;
-	  text-align: center;
-    }
-
-    /* Style for each image */
-    .news-block img {
-      width: 750px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-	/* Style for each image */
-    .events-block img {
-      width: 300px;
-      height: 150px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    /* Caption below image */
-    .caption {
-      margin-top: 10px;
-      font-size: 14px;
-      color: #333;
-    }
-
-    /* Custom navigation arrows on the left and right */
-    .owl-nav {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      transform: translateY(-50%);
-      pointer-events: none;
-    }
-
-    .owl-nav button {
-      background: #007bff;
-      color: #fff;
-      font-size: 20px;
-      border: none;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      pointer-events: all;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background 0.3s;
-    }
-
-    .owl-nav button:hover {
-      background: #0056b3;
-    }
-
-    /* Hide the bottom dots */
-    .owl-dots {
-      display: none;
-    }
-		
-		
-    </style>
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- New Design System -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
 </head>
-
 <body>
-	<div class="wrapper">
-	
-		<!--=== Header v6 ===-->
-		<div>
-		﻿<div class="header-v8 ">
-		<!-- Topbar blog -->
-		<div class="blog-topbar" style="border: 1px solid #C71585;width:100%;height:85%;margin-top:-15px; ">
-			<div>
-				<center> <img src="College_Topbanner.jpg" style="height:85%;width:80%;"> </center>
-				
-			</div>
-		</div>
-		<!-- End Topbar blog -->
-		
-		<!-- Navbar -->
-	<!-- Navbar -->
-		<div class="navbar mega-menu" role="navigation">
-			<div class="container">
-				
-				<div class="res-container">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-responsive-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!--<div class="navbar-brand" style="width:30%;padding-top:10px;padding-bottom:10px;background-color:#00664d;">
-						
-						 <a href="index.php">
-							<img src="assets/img/themes/IRTTlogo.jpg" alt="Logo" style="margin-left:14px;margin-top:px;">
-						</a> -->
-						
-				</div> 
-			</div>
-				
-				<div class="collapse navbar-collapse" id="navbar-responsive-collapse" style="background-color:#1760A9;">
-										
-						
-						<ul class="nav navbar-nav">
-							
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="index.php.html" class="dropdown-toggle" style="color:white;">
-									<span class="notranslate">Home</span> 
-								</a>
-							</li>
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"style="color:white;">
-									<span class="notranslate">About Us </span> 
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<div class="mega-menu-content">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-4 md-margin-bottom-30">
-														<div class="blog-grid">
-															<img class="img-responsive" src="assets/img/main/img1-1.jpg" alt="" style="border: 1px solid #050522;">
-															<center> <h3 class="blog-grid-title-sm" style="color:#FF2;"><b> GOVERNMENT COLLEGE OF ENGINEERING ERODE (Formerly IRTT)</b></h3> </center>
-														</div>
-													</div>
-													<div class="col-md-4 md-margin-bottom-30">
-														<!-- Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img style= "height:100px;border-radius:20px;border:3px solid #FF2;" src="assets/img/blog/img2.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h3><a href="aboutus.php.html">Overview of the college</a></h3>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
 
-														<!-- Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img style= "height:100px;border-radius:20px;border:3px solid #FF2;" src="https://www.gcee.ac.in/include\ajax\cse\professor&amp;hod.jpeg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h3><a href="index.html">PRINCIPAL </a></h3>
-																<h3 style="color:darkblue;">Dr. A. SARADHA, Ph.D., </h3>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-
-														<!-- Blog Thumb
-														<div class="blog-thumb md-margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img src="assets/img/blog/organizations.jpg" alt="" style="border: 1px solid #FF0074;">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h3><a href="organization.php">Our Organisation</a></h3>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-													</div>
-													<div class="col-md-4">
-														<!-- Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img style= "height:100px;border-radius:20px;border:3px solid #FF2;" src="assets/img/blog/img4.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h3><a href="irttmedia.php.html">Gallery</a></h3>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img style= "height:100px;border-radius:20px;border:3px solid #FF2;" src="assets/img/blog/feesimage.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h3 style="color:white;"> <a href="Fees/GCEEFees.jpeg" target="_blank" >Fees Details</a> <h3>
-																	<!-- <ul>
-																		<h3> <a href="Fees/GCEE_UGFees.jpeg" target="_blank" style="color:darkblue;">UG Fees</a></h3>
-																		<h3> <a href="" style="color:darkblue;"> PG Fees </a> </h3>
-																	</ul> -->
-															</div>
-														</div>
-														
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</li>
-							
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"style="color:white;">
-									<span class="notranslate">Academics</span> 
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<div class="mega-menu-content">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-4 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>UG Courses</strong></u></h2>
-														<ul class="dropdown-link-list">
-																<li><a href="civil.php.html">&raquo; Civil Engineering</a></li>
-																<li><a href="automobile.php.html">&raquo; Automobile Engineering</a></li>
-																<li><a href="mech.php.html">&raquo; Mechanical Engineering</a></li>
-																<li><a href="eee.php.html">&raquo; Electrical &amp; Electronics Engineering</a></li>
-																<li><a href="ece.php.html">&raquo; Electronics &amp; Communication Engineering</a></li>
-																<li><a href="cse.php.html">&raquo; Computer Science &amp; Engineering</a></li>
-																<li><a href="cse-ds.php.html">&raquo; Computer Science &amp; Engineering (Data Science)</a></li>
-																<li><a href="it.php.html">&raquo; Information Technology</a></li>
-																
-														</ul>
-													</div>
-													<div class="col-md-4 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>PG Courses</strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="mecse.php.html">&raquo; Master of Computer Science &amp; <span style="padding-left:10px;">Engineering</span></a></li>
-															<li><a href="mestruct.php.html">&raquo; Master of Structural Engineering</a></li>
-															
-														</ul>
-													</div>
-													<div class="col-md-4 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Science &amp; Humanities</strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="science&amp;humanities.php.html">&raquo; Department of Science &amp; Humanities</a></li>
-														</ul>
-														</br>
-													</br>
-													</div>
-													
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Admission</strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="admissionug.php.html">&raquo; UG Program</a></li>
-															<li><a href="admissionpg.php.html">&raquo; PG Program</a></li>
-															
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</li>
-							
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"style="color:white;">
-									<span class="notranslate">Facilities </span>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<div class="mega-menu-content">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-2 md-margin-bottom-30">
-														<ul class="dropdown-link-list">
-															<li><u style="color:#FF0074;"><b>Campus Highlights</b></u></li>
-															<li><a href="library.php.html">&raquo; Library</a></li>
-															<li><a href="sports.php.html">&raquo; Sports</a></li>
-															<li><a href="irttauditorium.php.html">&raquo; Auditorium</a></li>
-															<li><a href="medicalfacilities.php.html">&raquo; Medical Facilites</a></li>
-															<li><a href="rules&amp;regulations.php.html">&raquo; Rules &amp; Regulations</a></li>
-															<li><a href="cafeteria.php.html">&raquo; Cafeteria</a></li>
-															<li><a href="transport.php.html">&raquo; Transport Facilities</a></li>
-															<li><a href="scholorships.php.html">&raquo; Scholorships</a></li>
-														</ul>
-													</div>
-													<div class="col-md-5 md-margin-bottom-30">
-														<!-- Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img src="assets/img/blog/img7.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h2 style="color:#FF0074;"><a href="campusevent.php.html"><strong style="color:#FF0074;">Campus Event</strong></a></h3>
-																<ul class="blog-thumb-info">
-																	<li>Get Involved, your life will never be the same again…</li>
-																</ul>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-
-														<!-- Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img src="assets/img/blog/img8.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h2 style="color:#FF0074;"><a href="clubs&amp;events.php.html"><strong style="color:#FF0074;">Student Club</strong></a></h3>
-																<ul class="blog-thumb-info">
-																	<li>An opportunity to discover new interests, meet new people, and enhance your experiences at the College.</li>
-																</ul>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-
-														<!-- Blog Thumb -->
-														<div class="blog-thumb">
-															<div class="blog-thumb-hover">
-																<img src="assets/img/blog/img21.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h2 style="color:#FF0074;"><a href="nssteam.php.html"><strong style="color:#FF0074;">NSS</strong></a></h3>
-																<ul class="blog-thumb-info">
-																<li>Developing student’s personality through community service.</li>
-																</ul>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-													</div>
-													<div class="col-md-5">
-														<!-- Blog Thumb -->
-														
-														<!-- End Blog Thumb -->
-
-														<!-- Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img src="assets/img/blog/img11.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h2 style="color:#FF0074;"><a href="performers.php.html"><strong style="color:#FF0074;">Top Performers</strong></a></h3>
-																<ul class="blog-thumb-info">
-																	<li>Students who have excelled in arts, music, drama, entrepreneurial activities etc.,</li>
-																</ul>
-															</div>
-														</div>
-														<!-- End Blog Thumb -->
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img src="assets/img/blog/img12.jpg" alt="">
-																 
-															</div>
-															<div class="blog-thumb-desc">
-																<h2 style="color:#FF0074;"><a href="hostel.php.html"><strong style="color:#FF0074;">Hostels</strong></a></h2>
-																<ul class="blog-thumb-info">
-																	<li>PG Hostel | Boys Hostel | Girls Hostel</li>
-																</ul>
-															</div>
-														</div>
-														<div class="blog-thumb margin-bottom-20">
-															<div class="blog-thumb-hover">
-																<img src="https://www.gcee.ac.in/assets/img/blog/ICC.jpg" alt="">
-																 
-															</div>
-															
-														</div>
-														<!-- End Blog Thumb -->
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</li>
-							<!-- End World -->
-
-							<!-- Fashion -->
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"style="color:white;">
-									<span class="notranslate">Placement</span>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<div class="mega-menu-content">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-4 md-margin-bottom-30">
-														<ul class="dropdown-link-list">
-															<!-- <li><a href="" target="_blank">&raquo; Placement Broucher</a></li> -->
-															<li><a href="placementstatistics.php.html">&raquo; Placement Statistics</a></li>
-															<li><a href="placementtraining.php.html">&raquo; Placement Trainings</a></li>
-															<li><a href="placementrequiters.php.html">&raquo; Our Recruiters</a></li>
-															<li><a href="placementcontact.php.html">&raquo; Placement Contact</a></li>
-															<!-- <li><a href="internship.php" target="_blank">&raquo; Internship</a></li> -->
-															
-														</ul>
-													</div>
-													<div class="col-md-8 md-margin-bottom-30">
-														<!-- Blog Grid -->
-														<div class="blog-grid">
-															<a href="placementstatistics.php.html"><img class="img-responsive" src="assets/img/blog/TPCell.jpg" style="border-radius:20px;border:3px solid #FF2; " alt=""></a>
-															
-														</div>
-														<!-- End Blog Grid -->
-													</div>
-												
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</li>
-							
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="contactus.php.html" class="dropdown-toggle" data-toggle="dropdown" style="color:white;">
-									<span class="notranslate">Committees</span>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<div class="mega-menu-content">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Grievance Redressal Committee</strong></u></h2>
-														<ul class="dropdown-link-list">
-																<li><a href="Committees/GCEE_ICC_2025.jpg" target="_blank">&raquo; Internal Complaints Committee</a></li>
-																<li><a>&raquo; Grievance Registration</a></li>
-																<ul>
-																	<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdDpRdNni6GdU9FOWQVnoOKR5iy0iiq-i5euBM2RA8qj2bSCw/viewform?usp=sf_link" target="_blank"> &raquo; Student </a></li>
-																	<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSehf0m4t6t4DKnexaU-UeelLAxieDJDqilY2nY6EI_9BFI38Q/viewform"> &raquo; Faculty</a></li>
-																	<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMzU2zSdpx27_RrIa-MrlccdYFMRzQRBwYfdULY7-ERX85nQ/viewform"> &raquo; Other Staff</a></li>
-																	<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScpCKnoW9O8qupCV1iYJk8EA51dUJ6ojW3en8KE1R2gEwkr7w/viewform"> &raquo; Parent</a></li>
-																	<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOdsZKmXqY4E4AgOiHwbQ4Jg7WP6mVvu3vbB14TmTDZjHCpg/viewform"> &raquo; Alumni</a></li>
-																	
-																</ul>
-														</ul>
-													</div>
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Anti Ragging </strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="Committees/Antiragging.pdf" target="_blank">&raquo; Anti Ragging Committee</a></li>
-															
-														</ul>
-													</div>
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Student Counselling</strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="Committees/StudentCounsellingCommittee.pdf" target="_blank">&raquo; Student Couselling Committee</a></li>
-														</ul>
-													</div>
-													
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Institution-Industry Cell</strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="Committees/IIC.pdf" target="_blank">&raquo; Institution-Industry Committee</a></li>
-															
-														</ul>
-													</div>
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Hostel Mess </strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="https://www.gcee.ac.in/Committees/HostelCommittee.pdf" target="_blank"> &raquo; Hostel and Mess Committee</a></li>
-															
-														</ul>
-													</div>
-													
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Quality Assurance </strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="Committees/QAC.pdf" target="_blank"> &raquo; Quality Assurance Committee</a></li>
-															
-														</ul>
-													</div>
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>Research and Development </strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="Committees/R&amp;D.pdf" target="_blank"> &raquo; R&D Committee</a></li>
-															
-														</ul>
-													</div>
-													
-													<div class="col-md-3 md-margin-bottom-30">
-														<h2><u style="color:#FF0074;"><strong>SC/ST Students </strong></u></h2>
-														<ul class="dropdown-link-list">
-															<li><a href="https://www.gcee.ac.in/Committees/Sc&amp;ST.pdf" target="_blank"> &raquo; SC/ST Students Committee</a></li>
-															
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</li>
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="AICTE/AICTE_2025-26.PDF" target="_blank" class="dropdown-toggle"style="color:white;">
-									<span class="notranslate">AICTE </span>
-								</a>
-							</li>
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="NIRF/NIRF2024.pdf" target="_blank" class="dropdown-toggle" style="color:white;">
-									<span class="notranslate">NIRF </span>
-								</a>
-							</li>
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="https://examgcee.blogspot.com/" target="_blank" class="dropdown-toggle"style="color:white;">
-									<span class="notranslate">EXAM CELL </span>
-								</a>
-							</li>
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="GCEE_Alumni_Donations.php.html" class="dropdown-toggle"style="color:white;">
-									<span class="notranslate">ALUMNI </span>
-								</a>
-							</li>
-							
-							</li>
-							<li class="dropdown mega-menu-fullwidth">
-								<a href="contactus.php.html" class="dropdown-toggle"style="color:white;">
-									<span class="notranslate">Contact Us</span>
-								</a>
-							</li>
-											
-							
-						</ul>
-					<!--/responsive container-->
-				
-				</div><!--/navbar-collapse-->
-				
-			</div><!--/end container-->
-			
-		</div>
-		<!-- End Navbar -->
-	</div>		
-		<!--=== End Header v6 ===-->
-		</div>
-			
-			
-			<!--<center>  
-			<div id="google_translate_element" style="display:relative;">
-
-				<script type="text/javascript">
-					function googleTranslateElementInit() {
-						new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'ta,en',autoDisplay: false,layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-					}
-				</script>
-
-				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-			
-			</div>
-			</center> -->
-
-			
-			
-			
-			
-			
-		<!--=== Slider ===-->
-		<center>
-			<div class="col-md-14 md-margin-bottom-40">
-				<div class="news-events">
-   
-					<!-- Owl Carousel container -->
-					<div class="owl-carousel news-carousel">
-
-					<!-- Slide 1 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/CollegeBirdView.jpeg" style= "height:100%; width:100%;" alt="Chart Event">
-          					</div>
-						</div>
-					<!-- Slide 2 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/NammaGCEE2.jpeg" style= "height:100%; width:100%;" alt="Bed Event">
-							</div>
-						</div>
-
-					<!-- Slide 3 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/bg1.jpg" style= "height:400px; width:100%;" alt="ZZZ Event">
-							</div>
-						</div>
-					<!-- Slide 4 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/Auditorium1.jpeg" style= "height:400px; width:100%;" alt="Auditorium">
-							</div>
-						</div>
-					<!-- Slide 5 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/ForeignLanLab.jpeg" style= "height:100%; width:100%;" alt="Foreign Language Lab">
-							</div>
-						</div>
-						
-					<!-- Slide 6 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/IndoorStadiumInnerView.jpeg" style= "height:100%; width:100%;" alt="Indoor Stadium">
-							</div>
-						</div>	
-					<!-- Slide 6 -->
-						<div class="item">
-							<div class="news-block">
-								<img src="assets/img/sliders/layer/bg8.jpg" style= "height:100%; width:100%;" alt="Hostel">
-							</div>
-						</div>	
-						
-					</div>
-				</div>
-			</div>
-		
-		
-		
-		<!-- <div id="layerslider" style="width: 90%; height: 450px; border:4px solid #FF2;">
-			
-			
-			<div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105;">
-				<img src="assets/img/sliders/layer/CollegeBirdView.jpeg"  class="ls-bg" style="width:80%; height:400px;" alt="Slide background" >
-			</div>
-			
-			<div class="ls-slide" style="slidedirection: left; transition2d: 92,93,105;">
-				<img src="assets/img/sliders/layer/NammaGCEE2.jpeg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background">
-			</div>
-
-			<div class="ls-slide" data-ls="slidedelay:4500; transition2d:25;">
-				<img src="assets/img/sliders/layer/Slideimage_Admin.jpg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background"/>
-			</div>
-						
-			<div class="ls-slide" data-ls="transition2d:93;">
-				<img src="assets/img/sliders/layer/bg1.jpg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background">
-			</div>
-			
-			<div class="ls-slide" data-ls="transition2d:93;">
-				<img src="assets/img/sliders/layer/ForeignLanLab.jpeg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background">
-			</div>
-			
-			<div class="ls-slide" data-ls="transition2d:93;">
-				<img src="assets/img/sliders/layer/Auditorium1.jpeg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background">
-			</div>
-			
-			<div class="ls-slide" style="slidedirection: left; transition2d: 92,93,105;">
-				<img src="assets/img/sliders/layer/bg8.jpg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background">
-			</div>
-			<div class="ls-slide" data-ls="slidedelay:4500; transition2d:25;">
-				<img src="assets/img/sliders/layer/IndoorStadiumInnerView.jpeg" class="ls-bg" style="width:90%; height: 400px;" alt="Slide background"/>
-			</div>
-			
-			
-		</div> 		
-		<!--=== End Slider ===-->
-		</center>
-			
-		<center>
-			<div class="col-md-14 md-margin-bottom-20">
-			<div > 
-				
-				<span style="margin-top:2px;margin-bottom:0px;">
-					
-					<marquee scrolldelay=30;  onmouseover="this.stop();" onmouseout="this.start();"> 
-						<a  href="News/GCEE-PIC.pdf" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							<i class="fa fa-angle-double-right" > </i> <i class="flash"> Applications are invited for the incubation positions at GCEE startup TN Pre-Incubation Centre     </i> <i class= "flash fa fa-download"> </i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						<a  href="index.html" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							<i class="fa fa-angle-double-right" > </i> <i class="flash">CONGRATULATIONS: Our Student V.KRISHNAMOORTHY got placed in SIERRA SUPPORT CENTRE Pvt. Ltd., Coimbatore with annual salary Rs.38.5 Lakhs</i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						
-						
-						<a  href="index.html" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> <i class="flash">CONGRATULATIONS: Our Students R. GOWTHAM and C. SAHANA PRIYA got placed in CADENCE DESIGN SYSTEMS, Bangaluru with annual salary 20.49 Lakhs</i> <img src="assets/img/main/new.gif" />
-						</a>
-										
-						<!-- 
-						<a  href="News/Project Assistant-CMRG-DrKB.jpeg" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> <i class="flash"> Applications are invited for the post of Project Assitant at GCE,Erode. Contact Dr.K.Balamurugan(HoD/Mech) Ph:9150166322 </i> <i class= "flash fa fa-download"> </i><img src="assets/img/main/new.gif" />
-						</a>
-						<a  href="News/PQ_Round2_Result.pdf" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> <i class="flash"> PQ(IRT Wards)Counselling 2025 - Round 2 Result </i> <i class= "flash fa fa-download"> </i><img src="assets/img/main/new.gif" />
-						</a>
-						<a  href="Fees/GCEEFees.jpeg" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right " > GCE, Erode Fees Details</i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						 
-						
-						<a  href="News/PQCounsellingInstructions2025.pdf" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> <i class="flash"> Preferential Quota(IRT wards)Counselling Schedule & Instructions</i> <i class= "flash fa fa-download"> </i><img src="assets/img/main/new.gif" />
-						</a>
-						
-						<a  href="News/FeesToBePaid2025.pdf" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > CIRCULAR for all UG and PG students: Last date for paying college fees(AY 2025-26) is 18.08.2025</i> <i class= "flash">  Click here for more details </i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						<a href="" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> <i class="flash">GCE, Erode TNEA Couselling Code : 2709 </i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						<a  href="News/CCD_REFUND.pdf" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" >CIRCULAR: Details of refund of CCD, HCD and MFA to the 2017-2018, 2018-2019 and 2019-2020 batch students</i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						<a href="" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> <i class="flash">The last date for submitting the II year B.E/B.Tech PREFERENTIAL QUOTA application: 05.07.2025 </i> <img src="assets/img/main/new.gif" />
-						</a>
-									
-						<a  href="News/SIH2024.jpeg" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> GCEE Internal Hackathon for SIH 2024 - Team Registration <i class= "flash">  Click here  </i> <img src="assets/img/main/new.gif" />
-						</a>
-						
-						<a href="News/SIH2024_IDEA_Presentation_Format.ppt" target="_blank" style= "font-size:18px;color:darkblue;"> 
-							&#160 &#160 <i class="fa fa-angle-double-right" > </i> GCEE Internal Hackathon 2024 - Idea Presentation Format <i class= "flash">  Click here  </i> <img src="assets/img/main/new.gif" />
-						</a> -->
-						
-																	
-					</marquee> 
-				</span> 
-			</div>
-			</div>
-			</center>
-		
-		<div class="container content profile">
-			<div class="row">
-				<!--Left Sidebar-->
-				<div class="col-md-4 md-margin-bottom-30">
-					<!-- <center> <img src="GCEE_TNEA.jpg" style="height:200px; width:200px;border-radius:30%; border:5px solid #FF2;"></center>
-					-->
-					<br>
-					<center> <img src="NannMuthalvan.jpeg" style="height:340px; width:340px;border-radius:10%;border:5px solid #FF2;"></center>
-					
-					
-					<!-- <marquee behavior="scroll" direction="left">
-						<div style="height:200px; width:240px; ">
-							
-							<img src="Gallery/InaugurationCeremony.jpeg" style="height:100%; width:100%; top:0; left:0">
-							<div style="position: absolute; width:240px; background-color:rgba(0,0,0,0.2); color:red; padding:5px; text-align:center"> Nann Mudhalvan </div>
-						
-							<img src="Gallery/CommVisit.jpeg" style="height:100%; width:100%; top:0; left:0">
-							<div style="position: absolute; width:240px; background-color:rgba(0,0,0,0.2); color:red; padding:5px; text-align:center"> Nann Mudhalvan </div>
-							
-						</div>
-						<div style="height:240px; width:240px; border: 2px solid #FF2; position:relative;">
-							<img src="Gallery/CommVisit.jpeg" style="height:auto; width:100%; top:0; left:0">
-							<div style="position: absolute; bottom:0 left:0; width:100%; background-color:rgba(0,0,0,0.2); color:red; padding:5px; text-align:center"> Nann Mudhalvan </div>
-						</div> 
-					</marquee> -->
-					
-									
-				
-				
-				</div>
-				
-				<!-- Post Content -->
-				<div class="col-md-8">
-					<div class="profile-body">
-						<div class="row">
-							<!--Profile Post-->
-							<div class="col-sm-12">
-								<div class="panel panel-profile no-bg">
-									<div class="panel-heading overflow-h">
-										<center><h2 class="panel-title heading-sm" style="color:#0000CD;"> <i style="font-family:cursive;" >&nbsp <b>FROM OUR NEWS
-										ROOM</b></i></h2> </center>
-									</div>
-									<div id="scrollbar" class="panel-body no-padding mCustomScrollbar" data-mcs-theme="minimal-dark">
-										<!--
-										<div class="profile-post color-one">
-											<span class="profile-post-numb">01</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right" src="assets/img/main/new.gif" />
-												<h3 class="heading-xs"> <a href="News/Lateral_PQ_2025-26.pdf" target="_blank"> <b>Application form for II year B.E/B.Tech PREFERENTIAL QUOTA (IRT Wards Quota) Admission 2025-26</b></a> </h3>
-												<span>	<p style="color:black"> Application form for the Secod year B.E/B.Tech Lateral Entry Admission 2025-2026 under PREFERENTIAL QUOTA(IRT WARDS QUOTA) at GCE, Erode. <b>The last date for submitting the application is 05.07.2025 </b> <a  class="flash" href="News/Lateral_PQ_2025-26.pdf"  target="_blank" >    Click here to download the application form <i class="fa fa-download" style= "font-size:20px;"></i> </a> </p>
-												</span>
-											</div>
-										</div> -->
-										<div class="profile-post color-one">
-											<span class="profile-post-numb">01</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right" src="assets/img/main/new.gif" />
-												<h3 class="heading-xs"> <a href="index.html" target="_blank"> <b>Pre-Incubation Centre at GCE Erode</b></a> </h3>
-												<span>	<p style="color:black"> Delighted to announce that our college has been sanctioned a Pre-Incubator by StartupTN <a  class="flash" href="https://www.linkedin.com/posts/dr-balamurugan-kulendran-a4012438_delighted-to-announce-that-our-college-has-activity-7396435697064337409-ZQaD/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAfZTtABV_I0QyLNnQrT39iXxm0pznMKgVE"  target="_blank" > &nbsp &nbsp <i> click here </i> </a> </p>
-												</span>
-											</div>
-										</div>
-										<div class="profile-post color-two">
-											<span class="profile-post-numb">02</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right" src="assets/img/main/new.gif" />
-												<h3 class="heading-xs"> <a href="index.html" target="_blank"> <b>LABMAN Probe Sonicator at Mechanical Department</b></a> </h3>
-												<span>	<p style="color:black"> Mechanical department has enhanced its facilities with the installation of a LABMAN "Probe Sonicator", procured through the CMRG project grant<a  class="flash" href="https://www.linkedin.com/posts/dr-balamurugan-kulendran-a4012438_researchexcellence-innovationinengineering-activity-7397538095652364288-DVBr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAfZTtABV_I0QyLNnQrT39iXxm0pznMKgVE"  target="_blank" > &nbsp &nbsp <i> click here </i>  </a> </p>
-												</span>
-											</div>
-										</div>
-										<div class="profile-post color-three">
-											<span class="profile-post-numb">03</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right" src="assets/img/main/new.gif" />
-												<h3 class="heading-xs"> <a href="index.html" target="_blank"> <b>CONGRATULATIONS TO OUR PROUD STUDENT</b></a> </h3>
-												<span>	<p style="color:black"> Our M.E(CSE) Student V.KRISHNAMOORTHY got placed in SIERRA SUPPORT CENTRE Pvt. Ltd., Coimbatore with <b style='color:red'> Annual Salary Package Rs. 38.5 Lakhs </b>. <a  class="flash" href="index.html"  target="_blank" > &nbsp &nbsp  </a> </p>
-												</span>
-											</div>
-										</div>
-										<div class="profile-post color-four">
-											<span class="profile-post-numb">04</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right" src="assets/img/main/new.gif" />
-												<h3 class="heading-xs"> <a href="newsdesk/CADENS_Placed.jpg" target="_blank"> <b>CONGRATULATIONS TO OUR PROUD STUDENTS</b></a> </h3>
-												<span>	<p style="color:black"> Our Students R. GOWTHAM and C. SAHANA PRIYA from final year ECE got placed in CADENCE DESIGN SYSTEMS, Bangaluru with <b style='color:red'> Annual Salary Package Rs. 20.49 Lakhs </b>. <a  class="flash" href="index.html"  target="_blank" > &nbsp &nbsp  </a> </p>
-												</span>
-											</div>
-										</div>
-										<div class="profile-post color-five">
-											<span class="profile-post-numb">05</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right"  />
-												<h3 class="heading-xs"> <a href="index.html" target="_blank"> <b>Congratulation to the students placed in TCS (July 2024)</b> </a> </h3>
-												<span>	<p style="color:black">Congratulations to Mr.V.Navamanibalu(IT), Mr.L.Surendhar(IT),Mr.M.Logesh(CSE) and Mr.Manoj(CSE) for getting placed into TCS <a  class="flash" href="index.html"  target="_blank" > &nbsp &nbsp  <i class="fa fa-download" style= "font-size:20px;"></i></a> </p>
-												</span>
-											</div>
-										</div>
-										<div class="profile-post color-six">
-											<span class="profile-post-numb">06</span>
-											<div class="profile-post-in">
-												
-												<h3 class="heading-xs"> <a href="newsdesk/1998Batch_SJMeet.jpeg" target="_blank"> <b> 1998 Batch Alumni Silver Jubliee Meet </b> </a> </h3>
-												<span>	<p style="color:black"> Governemnt College of Engineering(IRTT), Erode - 1998 batch Alumni Silver Jubliee meet held on 22 & 23 July 2023<a  class="flash" href="newsdesk/1998Batch_SJMeet.jpeg"  target="_blank" > &nbsp &nbsp <i class="fa fa-download" style= "font-size:20px;"></i></a> </p>
-												</span>
-											</div>
-										</div>
-										
-										<div class="profile-post color-seven">
-											<span class="profile-post-numb">07</span>
-											<div class="profile-post-in">
-												<img class="panel-title heading-sm pull-right"  />
-												<h3 class="heading-xs"> <a href="newsdesk/1996Batch_SJMeet.jpg" target="_blank"> <b>1996 Batch Alumni Silver Jubliee Meet </b> </a> </h3>
-												<span>	<p style="color:black">Governemnt College of Engineering(IRTT), Erode - 1996 batch Alumni Silver Jubliee meet held on 30.07.2022 <a  class="flash" href="newsdesk/1996Batch_SJMeet.jpg"  target="_blank" > &nbsp &nbsp <i class="fa fa-download" style= "font-size:20px;"></i></a> </p>
-												</span>
-											</div>
-										</div>
-										<div class="profile-post color-eight">
-											<span class="profile-post-numb">08</span>
-											<div class="profile-post-in">
-												<h3 class="heading-xs"> <a href="newsdesk/1997Batch_SJMeet.jpg" target="_blank"> <b>1997 Batch Alumni Silver Jubliee Meet </b> </a> </h3>
-												<span>	<p style="color:black">Governemnt College of Engineering(IRTT), Erode - 1997 batch Alumni Silver Jubliee meet held on 17.07.2022 <a  class="flash" href="newsdesk/1996Batch_SJMeet.jpg"  target="_blank" > &nbsp &nbsp <i class="fa fa-download" style= "font-size:20px;"></i></a> </p>
-												</span>
-											</div>
-										</div>
-										  
-									
-										 
-										 
-                           				
-									</div>
-								</div>
-							</div>
-							<!--End Profile Event-->
-						</div>
-					</div>
-				</div>
-				<!-- End Profile Content -->
-				<button style="border-radius:16px;background-color:#0A1172;color:white; float:right;">View All</button>
-			</div>
-		</div>
-	
-	
-	
-	
-	<!--=== Content Part ===-->
-		<div class="container content" style="margin-top:-80px;">
-				<div class="col-md-12 md-margin-bottom-40">
-					<div class="headline"><h3 style="color:#0000CD;"><b>Welcome to Government College of Engineering, Erode (Formerly IRTT)</b></h3></div>
-					<div class="row">
-						
-						<div class="col-sm-12">
-							<p style="text-align:justify;">The college was established in 1984 under Institute of Road and Transport by the Tamil Nadu State Transport Corporation. In 2021, the college was transferred to under the governance of Directorate of Technical Education (DoTE) and subsequently renamed as Government College of Engineering, Erode. It is a premier Government Engineering College affiliated to Anna University, Chennai. The Institute is located on a sprawling lush green campus of 200 acres between Chithode and Bhavani in Erode district. It provides a congenial atmosphere for Technical Education. The Institute has excellent infrastructure, well-equipped laboratories, library and highly qualified & experienced faculty members. The Institute is well known for its technical excellence, modern facilities, research activities, good academic performance track record and more placements with high salary package. This Institute is functioning as the Zonal Headquarters for Zone-XI (Erode Zone) of Anna University monitoring the Engineering colleges affiliated to Anna University in Erode district and part of Namakkal, Tiruppur and Salem districts</p>
-						</div>
-					</div>
-				</div>
-				
-			
-			
-			<!-- Carousel part -->
-	<div class="col-md-12 md-margin-bottom-40">
-	<div class="news-events">
-    <h2 style="text-align:center; color:#0000CD;"><b>Events @GCEE</b></h2>
-
-    <!-- Owl Carousel container -->
-    <div class="owl-carousel news-carousel">
-
-      <!-- Slide 1: contains 2 image blocks -->
-      <div class="item">
-        <div class="events-block">
-          <img src="Events/CreativeThinking4.jpeg" style="height:150px; width:100%;" alt="Creative Thinking">
-          <div class="caption">Creative Thinking Training by our Alumni</div>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div>
+                <i class="fas fa-envelope"></i> gceeprincipal@gmail.com 
+                <span style="margin: 0 10px;">|</span>
+                <i class="fas fa-phone"></i> +91 0424 2533579
+            </div>
+            <div>
+                <a href="AICTE/AICTE_2025-26.PDF" target="_blank">AICTE</a>
+                <a href="NIRF/NIRF2024.pdf" target="_blank">NIRF</a>
+                <a href="https://examgcee.blogspot.com/" target="_blank">EXAM CELL</a>
+                <a href="GCEE_Alumni_Donations.php.html">ALUMNI</a>
+            </div>
         </div>
-        <div class="events-block">
-          <img src="Events/CreativeThinking3.jpeg" style="height:150px; width:100%;" alt="Attitude Building">
-          <div class="caption">Attitude Building Training</div>
-        </div>
-      </div>
-
-      <!-- Slide 2: contains 2 more image blocks -->
-      <div class="item">
-        <div class="events-block">
-          <img src="Events/StoneLaying1.jpeg" alt="New Hostel">
-          <div class="caption">New First Year Hostel</div>
-        </div>
-        <div class="events-block">
-          <img src="Events/StoneLaying2.jpeg" alt="New Labs">
-          <div class="caption">New Class Rooms and Labs</div>
-        </div>
-      </div>
-	  <div class="item">
-        <div class="events-block">
-          <img src="Events/BuildingInauguration1.jpeg" alt="Hostel Stone Laying">
-          <div class="caption">Foundation Stone Laying Ceremony(Boys Hostel)</div>
-        </div>
-        <div class="events-block">
-          <img src="Events/InaugurationCeremony1.jpeg" alt="Lab Stone Laying">
-          <div class="caption">Foundation Stone Laying Ceremony(Academic Building)</div>
-        </div>
-      </div>
-	  <div class="item">
-        <div class="events-block">
-          <img src="Events/Vidiyal1.jpeg" alt="Hostel Stone Laying">
-          <div class="caption"> கலைக்குயில் தமிழ்ப்பேரவை  2025</div>
-        </div>
-        <div class="events-block">
-          <img src="https://www.gcee.ac.in/Events/Vidiyal2.jpeg" alt="Lab Stone Laying">
-          <div class="caption">கலைக்குயில் தமிழ்ப்பேரவை  2025</div>
-        </div>
-      </div>
-	  
-
     </div>
-  </div>
-	</div>
-	<br>
-	
-	<!-- End of Carousel -->
-			
-				
-			
-				<!-- Recent Works -->
-					<div class="owl-carousel-v1 owl-work-v1 margin-bottom-40">
-							<div class="col-md-4 md-margin-bottom-40" >
-							
-								<div class="headline"><h2 class="pull-left"style="color:#0000CD;" ><b>Upcoming Events @ GCEE</b></h2>
-									<div class="owl-navigation">
-										<div class="customNavigation">
-											<a ><i class="fa fa-user-o"></i></a>
-										</div>
-									</div>
-								</div>
-								
-								<div style="border:thin dotted white;height:120px;margin-bottom:15px;">
-								<marquee scrolldelay="200"; direction="up" onmouseover="this.stop();" onmouseout="this.start();">
-								<div>
-									
-								
-									<br>
-							
-									<div>
-										<div style="width:50px;float:left;">
-											<time datetime="2022-10-19" class="icon">
-												<strong>2025</strong>
-												<span>Jul </span>
-												<em> 12 </em>
-											</time>
-										</div>
-										<div style="width:calc(100%-50px);">
-											<a href="Events/2000SilverJubilee.jpeg" target="_blank" style="color:#0A1172;"> 2000 Batch Silver Jubilee Meet<a>
-										</div>
-									</div>
-									
-								
-									
-									<!-- <div>
-										<div style="width:50px;float:left;">
-											<time datetime="2022-10-19" class="icon">
-												<strong>May</strong>
-												<span>16</span>
-												<em> Tue </em>
-											</time>
-										</div>
-										<div style="width:calc(100%-50px);">
-											<a href="Events/Kalaikuyil.jpeg" target="_blank" style="color:#0A1172;"> கலைக்குயில் தமிழ்ப் பேரவை நடத்தும் "விடியல் 2023" <a>
-										</div>
-									</div>
-									<br>
-									<br>
-									<div>
-										<div style="width:50px;float:left;height:50px;">
-											<time datetime="2022-07-11" class="icon">
-												<strong>2024</strong>
-												<span>Jan 29 <br>to Feb 2</span>
-											</time>
-										</div>
-										<div style="width:calc(100%-50px);">
-											<a href="" target="_blank" style="color:#0A1172;"> Dept. of IT acts as a Remote Center for Short Term Course on "AI/ML and Data Science for Industry 4.0" Organised by NITTTR, Chandigarh <a>
-										</div>
-									</div> 
-									
-																		
-									<br>
-									<br> -->
-								
-									<!-- <div>
-										<div style="width:50px;height:50px;float:left;">
-											<time datetime="2023-01-11" class="icon">
-												<strong>2023</strong>
-												<span>Mar <br>24</span>
-											</time>
-										
-										</div>
-										<div style="width:calc(100%-50px);">
-											<a href="" target="_blank" style="color:#0A1172;">Women's Day Celebrations <a>
-										</div>
-									</div>
-									<br>
-									<br>
-									
-									<div>
-										<div style="width:50px;float:left;">
-											<time datetime="2022-07-11" class="icon">
-												<strong>2022</strong>
-												<span>Mar <br>18</span>
-											</time>
-										
-										</div>
-										<div style="width:calc(100%-50px);">
-											<a href="Events/Invitation_GH_Library_FP.jpg" target="_blank" style="color:#0A1172;"> Grand opening of rejuvanated D-Block Library <a>
-										</div>
-									</div> -->
-									
-								</div>
-								</marquee>
-								</div>
 
-								
-								<!-- <button style="border-radius:16px;background-color:#0A1172;color:white;float:right;margin-top:25px;">View All</button> -->
-							</div>
-							
-							<div class="col-md-4 md-margin-bottom-40">
-							
-								<div class="headline"><h2 class="pull-left"style="color:#0000CD;" ><b>Campus Activities</b></h2>
-									<div class="owl-navigation">
-										<div class="customNavigation">
-											<a ><i class="fa fa-user-o"></i></a>
-										</div>
-									</div>
-								</div>
-						
-								</br>
-								<div >
-									<a  href="r&amp;dconsultancy.php.html" class="shape-rectangle">RESEARCH</a>
-								</div>
-								</br>
-								<div >
-									<a  href="industrialcollaboration.php.html" class="shape-rectangle">INDUSTRIAL COLLABORATION</a>
-								</div>
-								</br>
-								<div >
-									<a  href="clubs&amp;events.php.html" class="shape-rectangle">CLUBS </a>
-								</div>
-							</div>
-							
-							<div class="col-md-4 md-margin-bottom-40">
-								<div class="headline"><h2 class="pull-left"style="color:#0000CD;" ><b>Students Achievements</b></h2>
-									<div class="owl-navigation">
-										<div class="customNavigation">
-											<a ><i class="fa fa-user-o"></i></a>
-										</div>
-									</div>
-								</div>
-								</br>
-								<div >
-									<a  href="ACHIEVEMENTS/ROLL_OF_HONOUR.htm" class="shape-rectangle">ROLL OF HONOUR</a>
-								</div>
-								</br>
-								<div >
-									<a  href="ACHIEVEMENTS/STUDENTSACHIEVEMENTS.htm" class="shape-rectangle">SPECIAL ACHIEVEMENTS</a>
-								</div>
-								</br>
-								<div >
-									<a  href="index.html" ></a>
-								</div>
-								</br>
-								</br>
-								
-							</div>
-						</div>
-					</div>
-				<!-- End Recent Works -->
-				
-				
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-display">
+                <img src="assets/img/icons/GCEE.png" alt="GCEE Logo">
+                <div class="logo-text">
+                    <h1>Government College of Engineering</h1>
+                    <p>Erode (Formerly IRTT)</p>
+                </div>
+            </a>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
 
-				
-		</div>
-			<div class="container content job-partners" style="margin-top:-5%;">
-				<div class="title-box-v2">
-					<h2 style="color:#0000CD"> <b>Our Campus Recruiters </b></h2>
-					
-				</div>
+            <nav>
+                <ul class="main-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutus.php.html" class="nav-link">About Us <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="aboutus.php.html" class="dropdown-item">Overview of the college</a></li>
+                            <li><a href="irttmedia.php.html" class="dropdown-item">Gallery</a></li>
+                            <li><a href="Fees/GCEEFees.jpeg" target="_blank" class="dropdown-item">Fees Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Academics <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><strong style="padding: 10px 24px; display: block; color: var(--secondary-color);">UG Courses</strong></li>
+                            <li><a href="civil.php.html" class="dropdown-item">Civil Engineering</a></li>
+                            <li><a href="automobile.php.html" class="dropdown-item">Automobile Engineering</a></li>
+                            <li><a href="mech.php.html" class="dropdown-item">Mechanical Engineering</a></li>
+                            <li><a href="eee.php.html" class="dropdown-item">Electrical & Electronics</a></li>
+                            <li><a href="ece.php.html" class="dropdown-item">Electronics & Communication</a></li>
+                            <li><a href="cse.php.html" class="dropdown-item">Computer Science</a></li>
+                            <li><a href="cse-ds.php.html" class="dropdown-item">Computer Science (AI & DS)</a></li>
+                            <li><a href="it.php.html" class="dropdown-item">Information Technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="placementstatistics.php.html" class="nav-link">Placement <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="placementstatistics.php.html" class="dropdown-item">Placement Statistics</a></li>
+                            <li><a href="placementtraining.php.html" class="dropdown-item">Placement Trainings</a></li>
+                            <li><a href="placementrequiters.php.html" class="dropdown-item">Our Recruiters</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Facilities <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="library.php.html" class="dropdown-item">Library</a></li>
+                            <li><a href="hostel.php.html" class="dropdown-item">Hostels</a></li>
+                            <li><a href="sports.php.html" class="dropdown-item">Sports</a></li>
+                            <li><a href="irttauditorium.php.html" class="dropdown-item">Auditorium</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactus.php.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-				<ul class="list-inline our-clients" id="effect-2">
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/cts.png" alt="">
-							<div class="img-hover">
-								<h4>CTS</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/zohocorp.png" alt="">
-							<div class="img-hover">
-								<h4>ZOHO</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/tcs.png" alt="">
-							<div class="img-hover">
-								<h4>TCS</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/techmahindra.png" alt="">
-							<div class="img-hover">
-								<h4>Tech Mahindra</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/tafe.png" alt="">
-							<div class="img-hover">
-								<h4>TAFE</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/polaris.png" alt="">
-							<div class="img-hover">
-								<h4>Polaris</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/nokia.png" alt="">
-							<div class="img-hover">
-								<h4>NOKIA</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/infoview.png" alt="">
-							<div class="img-hover">
-								<h4>Infoview</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/infosys.png" alt="">
-							<div class="img-hover">
-								<h4>Infosys</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/ibm.png" alt="">
-							<div class="img-hover">
-								<h4>IBM</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/hcl.gif" alt="">
-							<div class="img-hover">
-								<h4>HCL</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/css.png" alt="">
-							<div class="img-hover">
-								<h4>CSS Corp</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/capgemini.png" alt="">
-							<div class="img-hover">
-								<h4>Capgemini</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/cadence.png" alt="">
-							<div class="img-hover">
-								<h4>CADENCE</h4>
-							</div>
-					  </figure>
-					</li>
-					<li>
-						<figure>
-							<img src="assets/img/companylogo/Hexa.png" alt="">
-							<div class="img-hover">
-								<h4>Hexaware Technologies</h4>
-							</div>
-					  </figure>
-					</li>
-				</ul>
-			</div>
-			<!-- End Owl Clients v1 -->
-		</div><!--/container-->
-		<!-- End Content Part -->
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="assets/img/sliders/layer/CollegeBirdView.jpeg" alt="Campus View">
+            </div>
+            <div class="hero-slide">
+                <img src="assets/img/sliders/layer/NammaGCEE2.jpeg" alt="GCEE Campus">
+            </div>
+            <div class="hero-slide">
+                <img src="assets/img/sliders/layer/bg1.jpg" alt="Campus Facilities">
+            </div>
+        </div>
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1>Welcome to Government College of Engineering, Erode</h1>
+                <p>Empowering the next generation of engineers with cutting-edge technology, top-notch facilities, and excellence in education since 1984.</p>
+                <div style="display: flex; gap: 16px;">
+                    <a href="admissionug.php.html" class="btn btn-primary">Apply Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="aboutus.php.html" class="btn btn-primary" style="background: transparent; border: 2px solid var(--white);">Discover GCEE</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!--=== Footer Version 1 ===-->
-		﻿<div class="footer-v1">
-			<div class="footer" style="background-color:#1760A9">
-				<div class="container">
-					<div class="row">
-						 
-					
+    <!-- 3. Quick Links Dashboard -->
+    <div class="container quick-links">
+        <div class="quick-links-grid">
+            <a href="admissionug.php.html" class="quick-link-card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Admissions</h3>
+            </a>
+            <a href="#departments" class="quick-link-card">
+                <i class="fas fa-building"></i>
+                <h3>Departments</h3>
+            </a>
+            <a href="r&dconsultancy.php.html" class="quick-link-card">
+                <i class="fas fa-microscope"></i>
+                <h3>Research</h3>
+            </a>
+            <a href="placementstatistics.php.html" class="quick-link-card">
+                <i class="fas fa-briefcase"></i>
+                <h3>Placements</h3>
+            </a>
+            <a href="MQApplication.php.html" class="quick-link-card">
+                <i class="fas fa-download"></i>
+                <h3>Downloads</h3>
+            </a>
+            <a href="https://examgcee.blogspot.com/" target="_blank" class="quick-link-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Student Portal</h3>
+            </a>
+        </div>
+    </div>
 
-						<div class="col-md-3 md-margin-bottom-20">
-							<div class="headline" ><h2 style="color:white"><b>Locate Us</b></h2></div>
-							<!-- <span class="logo" style="font-size:25px; color:#00008B;text-align:center">Locate Us</span> -->
-							<ul class="list-unstyled link-list" >
-								<li><a  href="Google_Map.php.html"><b>&raquo GCEE in Google Map </b></a></li>
-								<li><a  href="HowToReach.jpg"><b>&raquo How to Reach GCEE </b></a></li>
-							
-						</div>
-						<div class="col-md-2 md-margin-bottom-30">
-						
-							<div class="headline" ><h2 style="color:white"><b>Downloads</b></h2></div>
-							
-							<ul class="list-unstyled link-list" >
-								<li><a  href="index.html"><b>&raquo Academic Schedule </b></a></li>
-								<li><a  href="MQApplication.php.html"><b>&raquo Staff Forms </b></a></li>
-							
-						</div>
-						<!-- Link List -->
-						<div class="col-md-3 md-margin-bottom-30">
-							<div class="headline" ><h2 style="color:white"><b>Quick Links</b></h2></div>
-							<ul class="list-unstyled link-list">
-								<li><a href="AICTE/MandatoryDisclosure2025-26.pdf" target="_blank"><b>&raquo; Mandatory Disclosure</b></a></li>
-								<li><a href="https://www.gcee.ac.in/HelpDesk.php"><b>&raquo; Help Desk</b></a></li>
-								<li><a href="edp.php.html"><b>&raquo; EDC</b></a></li>
-								<li><a href="IPDC.php.html"><b>&raquo; IPDC</b></a></li>
-								<li><a href="https://gcee.ac.in/webmail" target="_blank"><b>&raquo; GCEE Mail</b></a></li>
-								<li><a href="https://sites.google.com/view/nptel-gce-erode/home" target="_blank"><b>&raquo; NPTEL</b></a></li>
-								<li><a href="https://examgcee.blogspot.com" target="_blank"><b>&raquo; GCEE Exam Cell</b></a></li>
-								<li><a href="index.html"><b>&raquo; GCEE(IRTT) Alumni</b></a></li>
-								
-							</ul>
-						</div><!--/col-md-3-->
-						<!-- End Link List -->
+    <!-- About Section -->
+    <section class="section">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+            <div>
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: var(--primary-color);">GCEE at a Glance</h2>
+                <p style="text-align: justify; margin-bottom: 20px;">The college was established in 1984 under Institute of Road and Transport by the Tamil Nadu State Transport Corporation. In 2021, the college was transferred to under the governance of Directorate of Technical Education (DoTE) and subsequently renamed as Government College of Engineering, Erode.</p>
+                <p style="text-align: justify; margin-bottom: 30px;">It is a premier Government Engineering College affiliated to Anna University, Chennai. The Institute is located on a sprawling lush green campus of 200 acres between Chithode and Bhavani in Erode district. It provides a congenial atmosphere for Technical Education with excellent infrastructure, well-equipped laboratories, library and highly qualified faculty members.</p>
+                <a href="aboutus.php.html" class="btn btn-primary">Read Our Story</a>
+            </div>
+            <div>
+                <img src="NannMuthalvan.jpeg" alt="GCEE Overview" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-hover);">
+            </div>
+        </div>
+    </section>
 
-						<!-- Address -->
-						<div class="col-md-4 map-img md-margin-bottom-30">
-							<div class="headline"><h2 style="color:white"><b>Contact Us</b></h2></div>
-							<!-- <li style="font-size:25px; color:#000;"><a href="contactus.php" style="font-size:25px;" >&raquo; Contact Us</a></li> -->
-							<address class="md-margin-bottom-40">
-								<b>
-								Government College of Engineering(IRTT),<br />
-								Erode - 638 316,<br /> Tamilnadu, India.<br />
-								<i class="fa fa-envelope"></i> <a class="" style="color:#33ffff;align:left;"> gceeprincipal@gmail.com</a> </br> 
-								<i class="fa fa-phone"></i> Principal: 9280091825<br />
-								<i class="fa fa-phone"></i> Help Desk: 9280091826, +91 0424 2533579<br />
-								<i class="fa fa-phone"></i> Students Admission	 : 9280091827<br />
-								<i class="fa fa-phone"></i> Accounts Office: 9280091828<br />
-								<i class="fa fa-phone"></i> Exam Cell: 9280091829<br />
-								<i class="fa fa-phone"></i> Placement Cell: 9280091830<br />
-								
-								</b>
-							</address>
-						</div><!--/col-md-3-->
-						<!-- End Address -->
-					</div>
-				</div>
-			</div><!--/footer-->
+    <!-- 4. Departments Section -->
+    <section id="departments" class="section" style="background: var(--bg-color);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Departments</h2>
+                <p>Explore our diverse academic offerings tailored to create industry-ready professionals and innovative researchers.</p>
+            </div>
+            
+            <div class="dept-grid">
+                <!-- Department 1 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/blog/img1-1.jpg" alt="Computer Science">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Computer Science & Engg</h3>
+                        <p class="card-text">Building the software architects of tomorrow with advanced computing facilities.</p>
+                        <a href="cse.php.html" class="card-link">Explore Department <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
 
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 sm-margon-bottom-10">
-							<ul class="list-inline terms-menu">
-								<li><span style="color:#FF0074;">Designed & Maintained By: </span><span style="color:#00ffff;">GCEE Website Administrators, Department of IT, GCE, Erode</span></li>
-								<li class="silver"  style="color:#959090;">Copyright © 2025 - All Rights Reserved By<a href="index.php.html" style="color:#FF0074;">&nbsp;GCE,Erode</a></li>
-								<li style="color:#CDCDCD;"><a href="Committees/Antiragging.pdf" target="_blank" style="color:#959090;">Anti-Ragging Committee </a> <a href="Committees/GCEE_ICC_2025.jpg" target="_blank" style="color:#959090;">Grievance Redressal Committee :B.E/B.Tech </a></li>
-								<li style="color:#CDCDCD;"><a href="http://www.antiragging.in/" target="_blank" style="color:#959090;">Visit Anti-Ragging Site</a> <span style="color:#FF0074;">|</span> <span style="color:#959090;">1800-180-5522 (Toll Free)</span></li>
-														
-							</ul>
-						</div>
-						<div class="col-md-2"></div>
-						<!-- Social Links -->
-						
-						<div class="col-md-4">
-							<ul class="social-icons pull-right">
-								<li><a href="https://www.facebook.com/profile.php?id=61551298765616" target="_blank" data-original-title="Facebook" class="rounded-x social_facebook" title="Facebook"></a></li>
-								<!-- <li><a href="coming_soon.php" target="_blank" data-original-title="Google Plus" class="rounded-x social_googleplus" title="Google Plus"></a></li> -->
-								<li><a href="https://twitter.com/GceErode" target="_blank" data-original-title="Twitter" class="rounded-x social_twitter" title="Twitter"></a></li>
-								<!-- <li><a href="#" target="_blank" data-original-title="Yahoo" class="rounded-x social_yahoo" title="Yahoo"></a></li> -->
-								<li><a href="https://www.youtube.com/channel/UCDOtasTYkBrmuZTSNCuo6jg" target="_blank" data-original-title="Youtube" class="rounded-x social_youtube" title="Youtube"></a></li>
-								
-							
-							</ul>
-						</div>
-						<!-- End Social Links -->
-					</div>
-				</div>
-			</div><!--/copyright-->
-		</div>
-		<!--=== End Footer Version 1 ===-->
-	</div><!--/wrapper-->
+                <!-- Department 2 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/blog/img2.jpg" alt="IT">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Information Technology</h3>
+                        <p class="card-text">Pioneering in IT solutions and fostering innovation in digital technologies.</p>
+                        <a href="it.php.html" class="card-link">Explore Department <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
 
-	<!-- JS Global Compulsory -->
-	<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<!-- JS Implementing Plugins -->
-	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-	<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
-	<script type="text/javascript" src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
-	<script type="text/javascript" src="assets/plugins/layer-slider/layerslider/js/greensock.js"></script>
-	<script type="text/javascript" src="assets/plugins/layer-slider/layerslider/js/layerslider.transitions.js"></script>
-	<script type="text/javascript" src="assets/plugins/layer-slider/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
-	<!-- JS Customization -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-	<!-- JS Page Level -->
-	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/layer-slider.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/owl-recent-works.js"></script>
-	
-	<!-- JS Implementing Plugins  for Company  -->
-		<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-		<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
-		<script type="text/javascript" src="assets/plugins/jquery.parallax.js"></script>
-		<script type="text/javascript" src="assets/plugins/image-hover/js/touch.js"></script>
-		<script type="text/javascript" src="assets/plugins/image-hover/js/modernizr.js"></script>
-		<!-- JS Implementing Plugins for Events-->
-	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-	<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
-	<script type="text/javascript" src="assets/plugins/counter/waypoints.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/counter/jquery.counterup.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/sky-forms-pro/skyforms/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/datepicker.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function() {
-			App.init();
-			LayerSlider.initLayerSlider();
-			StyleSwitcher.initStyleSwitcher();
-			OwlCarousel.initOwlCarousel();
-			OwlRecentWorks.initOwlRecentWorksV2();
-		});
-	</script>
-	<script type="text/javascript">
-		jQuery(document).ready(function() {
-			App.init();
-			App.initCounter();
-			App.initScrollBar();
-			Datepicker.initDatepicker();
-			StyleSwitcher.initStyleSwitcher();
-		});
-	</script>
-<script type="text/javascript" src="assets/js/rightclick.js"></script>
-<!--[if lt IE 9]>
-	<script src="assets/plugins/respond.js"></script>
-	<script src="assets/plugins/html5shiv.js"></script>
-	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
-	<![endif]-->
+                <!-- Department 3 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/blog/img4.jpg" alt="ECE">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Electronics & Communication</h3>
+                        <p class="card-text">Empowering students in modern electronics, telecommunication and signal processing.</p>
+                        <a href="ece.php.html" class="card-link">Explore Department <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
 
+                <!-- Department 4 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/blog/img7.jpg" alt="Mechanical">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Mechanical Engineering</h3>
+                        <p class="card-text">From classical mechanics to modern robotics, shaping the physical world.</p>
+                        <a href="mech.php.html" class="card-link">Explore Department <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
 
-<!-- jQuery (required for Owl Carousel) -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <!-- Department 5 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/blog/img8.jpg" alt="Civil">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Civil Engineering</h3>
+                        <p class="card-text">Designing, constructing, and maintaining the built environment sustainably.</p>
+                        <a href="civil.php.html" class="card-link">Explore Department <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
 
-  <!-- Owl Carousel JavaScript from CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                <!-- Department 6 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/blog/img11.jpg" alt="EEE">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Electrical & Electronics</h3>
+                        <p class="card-text">Powering the future through advanced electrical systems and automation.</p>
+                        <a href="eee.php.html" class="card-link">Explore Department <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#academics" class="btn btn-primary" style="background: transparent; color: var(--secondary-color); border: 2px solid var(--secondary-color);">View All Programs</a>
+            </div>
+        </div>
+    </section>
 
-  <script>
-    // Initialize the carousel once the document is fully loaded
-    $(document).ready(function(){
-      $(".news-carousel").owlCarousel({
-        items: 1,                 // One "slide" at a time (each with 2 images inside)
-        loop: true,               // Repeat infinitely
-        autoplay: true,           // Start autoplay
-        autoplayTimeout: 4000,    // Change slide every 4 seconds
-        autoplayHoverPause: false, // Do not pause when mouse hovers
-        nav: true,                // Show navigation arrows
-        navText: ['<span>&#10094;</span>', '<span>&#10095;</span>'], // Custom arrow icons
-        dots: false               // Hide navigation dots below
-      });
-    });
-  </script>
+    <!-- 6. Placement Highlights -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>38.5</h3>
+                <p>Highest LPA Offered</p>
+            </div>
+            <div class="stat-item">
+                <h3>90+</h3>
+                <p>Top Recruiters</p>
+            </div>
+            <div class="stat-item">
+                <h3>40+</h3>
+                <p>Years of Legacy</p>
+            </div>
+            <div class="stat-item">
+                <h3>200</h3>
+                <p>Acres Green Campus</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- 7. News & 8. Events -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Campus Updates</h2>
+                <p>Stay informed with the latest news, announcements, and upcoming events from GCEE.</p>
+            </div>
 
+            <div class="news-events-container">
+                <!-- News Column -->
+                <div>
+                    <h3 style="margin-bottom: 24px; font-size: 1.5rem;">Latest News</h3>
+                    
+                    <div class="news-card">
+                        <div class="news-date">
+                            <span>01</span>
+                            <small>News</small>
+                        </div>
+                        <div class="news-content">
+                            <h4><a href="#">Pre-Incubation Centre at GCE Erode</a></h4>
+                            <p>Delighted to announce that our college has been sanctioned a Pre-Incubator by StartupTN. Fostering innovation and entrepreneurship.</p>
+                        </div>
+                    </div>
 
+                    <div class="news-card">
+                        <div class="news-date">
+                            <span>02</span>
+                            <small>News</small>
+                        </div>
+                        <div class="news-content">
+                            <h4><a href="#">LABMAN Probe Sonicator Installed</a></h4>
+                            <p>Mechanical department has enhanced its facilities with the installation of a LABMAN "Probe Sonicator", procured through the CMRG project grant.</p>
+                        </div>
+                    </div>
+
+                    <div class="news-card">
+                        <div class="news-date">
+                            <span>03</span>
+                            <small>News</small>
+                        </div>
+                        <div class="news-content">
+                            <h4><a href="#">Congratulations to our Proud Students</a></h4>
+                            <p>Our Students R. GOWTHAM and C. SAHANA PRIYA from ECE got placed in CADENCE DESIGN SYSTEMS with Annual Salary 20.49 Lakhs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Column -->
+                <div>
+                    <h3 style="margin-bottom: 24px; font-size: 1.5rem;">Upcoming Events</h3>
+                    
+                    <div class="news-card event-card">
+                        <div class="news-date" style="background: var(--primary-color); color: var(--white);">
+                            <span>12</span>
+                            <small>Jul</small>
+                        </div>
+                        <div class="news-content">
+                            <h4><a href="#">2000 Batch Silver Jubilee Meet</a></h4>
+                            <p>Alumni meet to celebrate the silver jubilee of the class of 2000.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="news-card event-card">
+                        <div class="news-date" style="background: var(--primary-color); color: var(--white);">
+                            <span>TBA</span>
+                            <small>2025</small>
+                        </div>
+                        <div class="news-content">
+                            <h4><a href="#">Creative Thinking Training</a></h4>
+                            <p>Special training sessions by our esteemed alumni.</p>
+                        </div>
+                    </div>
+
+                    <div class="news-card event-card">
+                        <div class="news-date" style="background: var(--primary-color); color: var(--white);">
+                            <span>TBA</span>
+                            <small>2025</small>
+                        </div>
+                        <div class="news-content">
+                            <h4><a href="#">New Hostel Inauguration</a></h4>
+                            <p>Foundation stone laying and inauguration of new facilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Campus Facilities -->
+    <section class="section" style="background: var(--bg-color);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Campus Life & Facilities</h2>
+                <p>Everything you need to thrive both academically and personally.</p>
+            </div>
+            
+            <div class="dept-grid">
+                <a href="library.php.html" class="quick-link-card" style="background: var(--white); height: auto;">
+                    <i class="fas fa-book-reader" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                    <h3 style="font-size: 1.2rem;">Central Library</h3>
+                    <p style="color: var(--text-light); margin-top: 10px;">Vast collection of resources, journals, and digital media.</p>
+                </a>
+                
+                <a href="hostel.php.html" class="quick-link-card" style="background: var(--white); height: auto;">
+                    <i class="fas fa-bed" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                    <h3 style="font-size: 1.2rem;">Modern Hostels</h3>
+                    <p style="color: var(--text-light); margin-top: 10px;">Comfortable lodging facilities for boys and girls.</p>
+                </a>
+                
+                <a href="sports.php.html" class="quick-link-card" style="background: var(--white); height: auto;">
+                    <i class="fas fa-futbol" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                    <h3 style="font-size: 1.2rem;">Sports Complex</h3>
+                    <p style="color: var(--text-light); margin-top: 10px;">Indoor stadium and outdoor grounds for physical well-being.</p>
+                </a>
+                
+                <a href="medicalfacilities.php.html" class="quick-link-card" style="background: var(--white); height: auto;">
+                    <i class="fas fa-first-aid" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                    <h3 style="font-size: 1.2rem;">Medical Facilities</h3>
+                    <p style="color: var(--text-light); margin-top: 10px;">24/7 health center ensuring student wellness.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Photo Gallery -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Life at GCEE</h2>
+                <p>A glimpse into our vibrant campus, events, and student life.</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="assets/img/sliders/layer/Auditorium1.jpeg" alt="Auditorium">
+                </div>
+                <div class="gallery-item">
+                    <img src="Events/BuildingInauguration1.jpeg" alt="Event">
+                </div>
+                <div class="gallery-item">
+                    <img src="Events/StoneLaying2.jpeg" alt="Labs">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/sliders/layer/IndoorStadiumInnerView.jpeg" alt="Indoor Stadium">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/sliders/layer/ForeignLanLab.jpeg" alt="Language Lab">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruiter Section -->
+    <section class="section" style="background: var(--white); text-align: center; border-top: 1px solid rgba(0,0,0,0.05);">
+        <div class="container">
+            <h2 style="margin-bottom: 40px; color: var(--primary-color);">Top Corporate Partners</h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; align-items: center; opacity: 0.7;">
+                <img src="assets/img/companylogo/tcs.png" alt="TCS" style="height: 40px; max-width: 150px; object-fit: contain;">
+                <img src="assets/img/companylogo/zoho.png" alt="Zoho" style="height: 40px; max-width: 150px; object-fit: contain;">
+                <img src="assets/img/companylogo/cts.png" alt="CTS" style="height: 40px; max-width: 150px; object-fit: contain;">
+                <img src="assets/img/companylogo/infosys.png" alt="Infosys" style="height: 40px; max-width: 150px; object-fit: contain;">
+                <img src="assets/img/companylogo/ibm.png" alt="IBM" style="height: 40px; max-width: 150px; object-fit: contain;">
+                <img src="assets/img/companylogo/techmahindra.png" alt="Tech Mahindra" style="height: 40px; max-width: 150px; object-fit: contain;">
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About GCEE</h3>
+                    <p style="color: rgba(255, 255, 255, 0.8); margin-bottom: 20px;">Government College of Engineering, Erode, is a premier institution established in 1984, dedicated to excellence in engineering education and research.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61551298765616" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/GceErode" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UCDOtasTYkBrmuZTSNCuo6jg" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="AICTE/MandatoryDisclosure2025-26.pdf" target="_blank">Mandatory Disclosure</a></li>
+                        <li><a href="https://www.gcee.ac.in/HelpDesk.php">Help Desk</a></li>
+                        <li><a href="edp.php.html">EDC</a></li>
+                        <li><a href="IPDC.php.html">IPDC</a></li>
+                        <li><a href="https://examgcee.blogspot.com" target="_blank">Exam Cell</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Committees</h3>
+                    <ul class="footer-links">
+                        <li><a href="Committees/Antiragging.pdf" target="_blank">Anti-Ragging Committee</a></li>
+                        <li><a href="Committees/GCEE_ICC_2025.jpg" target="_blank">Grievance Redressal</a></li>
+                        <li><a href="Committees/IIC.pdf" target="_blank">Institution-Industry Cell</a></li>
+                        <li><a href="Committees/HostelCommittee.pdf" target="_blank">Hostel Mess Committee</a></li>
+                        <li><a href="Committees/R&D.pdf" target="_blank">R&D Committee</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Government College of Engineering (IRTT),<br>Erode - 638 316, Tamilnadu.</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>gceeprincipal@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>Principal: 9280091825<br>Help Desk: 9280091826</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Government College of Engineering, Erode. All Rights Reserved.</p>
+                <p>Designed & Maintained By: GCEE Website Administrators, Dept of IT.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/ui.js"></script>
 </body>
 </html>
