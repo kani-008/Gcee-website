@@ -17,12 +17,12 @@
                     <ul class="footer-links">
                         <li><a href="AICTE/MandatoryDisclosure2025-26.pdf" target="_blank">Mandatory Disclosure</a></li>
                         <li><a href="https://www.gcee.ac.in/HelpDesk.php">Help Desk</a></li>
-                        <li><a href="edp.php.html">EDC</a></li>
-                        <li><a href="IPDC.php.html">IPDC</a></li>
+                        <li><a href="edp.php">EDC</a></li>
+                        <li><a href="IPDC.php">IPDC</a></li>
                         <li><a href="https://gcee.ac.in/webmail" target="_blank">GCEE Mail</a></li>
                         <li><a href="https://sites.google.com/view/nptel-gce-erode/home" target="_blank">NPTEL</a></li>
                         <li><a href="https://examgcee.blogspot.com" target="_blank">GCEE Exam Cell</a></li>
-                        <li><a href="GCEE_Alumni_Donations.php.html">GCEE Alumni</a></li>
+                        <li><a href="GCEE_Alumni_Donations.php">GCEE Alumni</a></li>
                     </ul>
                 </div>
 
@@ -56,7 +56,7 @@
                         </li>
                         <li>
                             <i class="fas fa-globe"></i>
-                            <span><a href="Google_Map.php.html" style="color: #33ffff;">GCEE on Google Map</a></span>
+                            <span><a href="Google_Map.php" style="color: #33ffff;">GCEE on Google Map</a></span>
                         </li>
                     </ul>
                 </div>
